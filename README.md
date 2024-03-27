@@ -1,4 +1,4 @@
-# Hand_Gesture_Recognition_Project-with-OpenCV
+# Hand_Gesture_Recognition_Project_with_OpenCV
 Hand Gesture Recognition Project with OpenCV, Mediapipe, Arduino, and Pyfirmata
 
 🌟 Excited to share my latest project: Finger Detection System! Leveraging OpenCV and Mediapipe libraries in Python, I developed a real-time hand detection system that accurately identifies finger positions. Connects Python (PyCharm) to Arduino (Arduino IDE) using pyFirmata library for communication.
