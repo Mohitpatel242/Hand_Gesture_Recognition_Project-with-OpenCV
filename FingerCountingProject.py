@@ -78,31 +78,6 @@ while True:
         if fingers[4] == 1:board.digital[9].write(1)
         else:board.digital[9].write(0)
 
-            # board.digital[13].write(1)
-            # time.sleep(0.2)
-            # board.digital[13].write(0)
-            # time.sleep(0.2)
-
-        # def valSend():
-        #     if fingers[0] == 1 and fingers[1] == 0 and fingers[2] == 0 and fingers[3] == 0 and fingers[4] == 0:
-        #         return 1
-        #     if fingers[0] == 0 and fingers[1] == 1 and fingers[2] == 0 and fingers[3] == 0 and fingers[4] == 0:
-        #         return 2
-        #     if fingers[0] == 0 and fingers[1] == 0 and fingers[2] == 1 and fingers[3] == 0 and fingers[4] == 0:
-        #         return 3
-        #     if fingers[0] == 0 and fingers[1] == 0 and fingers[2] == 0 and fingers[3] == 1 and fingers[4] == 0:
-        #         return 4
-        #     if fingers[0] == 0 and fingers[1] == 0 and fingers[2] == 0 and fingers[3] == 0 and fingers[4] == 1:
-        #         return 5
-        #
-        #     return 0
-        #
-        #
-        # result = valSend()
-        # print(result)
-        # arduino.sendData([result])
-        # print(arduino.sendData([result]))
-
     cTime = time.time()
     fps = 1 / (cTime - pTime)
     pTime = cTime
